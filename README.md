@@ -1,17 +1,18 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<br>
-<div style="display: block">
-    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" style="display: block; margin: auto; width: 50%;">
-</div>
-<div style="text-align: center">
-  <p>An open source project designed to make it faster and easier to generate training datasets for computer vision algorithms.</p>
-  <br>
-  <a href="https://github.com/SWilliams17655/VisionForge/tree/Updating-Readme-for-new-software/src/main"><strong>Explore the Code»</strong></a>
-  <br>
-  <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-  <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+<div align="center">
+    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" width="200" height="200">
+    <p align="center">
+      An open source project designed to make it faster and easier to generate training datasets for computer vision algorithms.
+      <br />
+      <br />
+      <a href="https://github.com/SWilliams17655/VisionForge/tree/main/src/"><strong>Explore the Code»</strong></a>
+      <br />
+      <br />
+      <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+      ·
+      <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    </p>
 </div>
 <br>
 <br>
