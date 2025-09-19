@@ -29,7 +29,7 @@
 <p><u>Project's Objective</u>: Create an open source tool for users to rapidly generate training datasets for computer vision algorithms using bounding boxes.</p>
 <br>
 <br>
-<div style="display: block">
+<div align="center">
     <img src="src/main/resources/com/visonforge/visionforge/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
 </div>
 
