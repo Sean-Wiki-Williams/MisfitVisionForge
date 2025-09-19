@@ -36,7 +36,7 @@
 <br>
 <br>
 <div align="center">
-    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%; border:30px solid white">
+    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" border=1 style="display: block; margin: auto; width: 75%; height: 75%; border: 30px solid #000000">
 </div>
 
 
