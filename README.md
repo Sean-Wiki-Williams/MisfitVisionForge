@@ -44,7 +44,7 @@
 <h2 id="download">Download Most Recent Version</h2>
 
 <div align="center">
-    <img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black;">
+    <img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:13px solid white;">
 </div>
 
 Coming Soon
