@@ -30,7 +30,7 @@
 <br>
 <br>
 <div align="center">
-    <img src="src/main/resources/com/visonforge/visionforge/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
+    <img src="src/main/resources/com/visonforge/visionforge/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 50%; height: 50%">
 </div>
 
 <h2> Built With </h2>
