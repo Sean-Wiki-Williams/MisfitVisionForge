@@ -30,7 +30,7 @@
 <br>
 <br>
 <div align="center">
-    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
+    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
 </div>
 
 <h2> Built With </h2>
