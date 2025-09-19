@@ -54,15 +54,11 @@ read
 <p>(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-<a id="built-with"></a>
-<div class="row">
-  <div class="column">
-    <img src="src/main/resources/com/visonforge/visionforge/java.png" alt="Java" width="140" height="75">
-  </div>
-<p>(<a href="#readme-top">back to top</a>)</p>
-</div>
+<img src="src/main/resources/com/visonforge/visionforge/java.png" alt="Java" width="140" height="75">
+
+<a href="#readme-top">back to top</a>
 <a id="download-most-recent-version"></a>
-### To Download Most Recent Version
+### Built With
 
 Coming Soon
 
@@ -80,5 +76,5 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p>(<a href="#readme-top">back to top</a>)</p>
+<a href="#readme-top">back to top</a>
 
