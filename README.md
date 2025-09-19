@@ -1,7 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <br>
-<div>
+<div style="display: block">
     <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" style="display: block; margin: auto; width: 50%;">
 </div>
 <div style="text-align: center">
@@ -28,12 +28,12 @@
 <p><u>Project's Objective</u>: Create an open source tool for users to rapidly generate training datasets for computer vision algorithms using bounding boxes.</p>
 <br>
 <br>
-<div>
+<div style="display: block">
     <img src="src/main/resources/com/visonforge/visionforge/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
 </div>
 
 <h2> Built With </h2>
-<div>
+<div style="display: block">
     <img src="src/main/resources/com/visonforge/visionforge/java.png" alt="Java" style="display: block; margin: auto; width: 25%; height: 25%">
 </div>
 
