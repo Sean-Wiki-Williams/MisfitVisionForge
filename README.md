@@ -84,24 +84,23 @@ Don't forget to give the project a star! Thanks again!
     ]}
 ```
 
-<p>ith the training folder created, you can now go back to the VisionForge software and click the Load button. Navigate to your JSON and select it. From there your training dataset will load.</p>
+<p>With the training folder created, you can now go back to the VisionForge software and click the Load button. Navigate to your JSON and select it. From there your training dataset will load.</p>
 
 <h3>Labeling Data</h3>
-VisionForge uses BoundingBoxes to label image. Start by selecting your image in the image box. This will open your image on the right side.
-Resize the image as required.
+<p>VisionForge uses BoundingBoxes to label image. Start by selecting your image in the image box. This will open your image on the right side.
+Resize the image as required.</p>
 
-Find the object you would like to classify and click in the upper left side dragging the bounding box to the lower right.
+<p>Find the object you would like to classify and click in the upper left side dragging the bounding box to the lower right.</p>
 <div align="center">
     <img src="src/main/resources/selectingobject.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
 </div>
 
-<p>Select the object classification from the dropdown (Figure 2, Number 6).
-Click save (Figure 2, Number 5)
-Each time save is clicked the dataset JSON is updated.
+<p>Select the object classification from the dropdown (Figure 2, Number 6).</p>
+<p>Click save (Figure 2, Number 5). Each time save is clicked the dataset JSON is updated.</p>
 
 <h3>Deleting Classification</h3>
-If an object is not correctly marked, a user can select it from the list on the left then click the delete button. (Figure 2, Number 2)
+<p>If an object is not correctly marked, a user can select it from the list on the left then click the delete button. (Figure 2, Number 2)</p>
 
-Updating Classification
-If an object is incorrectly classified, the user can select it from teh list on the left (Figure 2, Number 6) then change the object classification in the drop-down (Figure 2, Number 4).
-Finally, click the update button. (Figure 2, Number 5)
+<h3>Updating Classification</h3>
+<p>If an object is incorrectly classified, the user can select it from teh list on the left (Figure 2, Number 6) then change the object classification in the drop-down (Figure 2, Number 4).
+Finally, click the update button. (Figure 2, Number 5)</p>
