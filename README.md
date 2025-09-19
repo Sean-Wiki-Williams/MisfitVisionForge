@@ -20,67 +20,54 @@
     <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
+read
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#download-most-recent-version">Getting Started</a></li>
+    <li><a href="#contribute">Contributing</a></li>
   </ol>
 </details>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<a id="about-the-project">
 <p><u>Problem Statement</u>: Computer vision algorithms for object detection are powerful tools that enhance sensor capability allowing the sensor to detect object within an image as shown in Figure 1. To accomplish this, these algorithms must be trained using large datasets of pre-classified images like the one in Figure 2. Although there are many pre-classified datasets available (COCO, CIFAR, etc.) there are few open source tools available to generate new datasets.</p>
 <p><u>Project's Objective</u>: Create an open source tool for users to rapidly generate training datasets for computer vision algorithms using bounding boxes.</p>
   
 <br>
 <br>
+<a id="readme-top">
 <div align="center">
     <img src="" 
     alt="Figure 1" width="800" height="500">
-  </a>
 </div>
 <div align="center">
     <img src="/static/Architecture.png" 
     alt="Figure 2" width="800" height="500">
-  </a>
 </div>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p>(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
+<a id="built-with">
 <div class="row">
   <div class="column">
     <img src="src/main/resources/com/visonforge/visionforge/java.png" alt="Java" width="140" height="75">
   </div>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p>(<a href="#readme-top">back to top</a>)</p>
+</div>
+<a id="download-most-recent-version">
 ### To Download Most Recent Version
 
 Coming Soon
 
 ### To Contribute
-
+<a id="contribute">
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -92,8 +79,5 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p>(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- CONTACT -->
-## Contact
