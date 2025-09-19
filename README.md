@@ -1,7 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <div align="center">
-    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" width="200" height="200">
+    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" width="50%" height="50%">
     <p align="center">
       An open source project designed to make it faster and easier to generate training datasets for computer vision algorithms.
       <br />
