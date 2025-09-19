@@ -12,7 +12,7 @@
     An open source project designed to make it faster and easier to generate training datasets for computer vision algorithms.
     <br />
     <br />
-    <a href="https://github.com/SWilliams17655/VisionForge/tree/Updating-Readme-for-new-software/src/main"><strong>Explore the Code»</strong></a>
+    <a href="https://github.com/SWilliams17655/VisionForge/tree/src/main"><strong>Explore the Code»</strong></a>
     <br />
     <br />
     <a href="https://github.com/SWilliams17655/VisionForge/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
