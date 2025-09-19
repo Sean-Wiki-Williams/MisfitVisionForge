@@ -69,7 +69,7 @@ Don't forget to give the project a star! Thanks again!
 <h3>Starting the program</h3>
 <p>Once downloaded, VisionForge is wrapped in a .exe file making use very simple. Double click to launch the software and you will be taken to the initial screen shown below.</p>
 <div align="center">
-    <img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black">
+    <kbd><img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black"></kbd>
 </div>
 <h3>Creating a new training set</h3>
 <p>The structure of the training folder is shown below. A .json contains all the bounding boxes; whereas, a sub-folder contains all the training images. Currently the software only support JPEG. Other formats will be added later. If you would prefer to download a empty file folder the first time, it can be downloaded from this link.</p>
