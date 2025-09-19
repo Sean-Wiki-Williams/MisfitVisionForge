@@ -36,7 +36,7 @@
 <br>
 <br>
 <div align="center">
-    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
+    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%; border:5px; double black;">
 </div>
 
 
@@ -44,7 +44,7 @@
 <h2 id="download">Download Most Recent Version</h2>
 
 <div align="center">
-    <img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
+    <img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black;">
 </div>
 
 Coming Soon
@@ -69,12 +69,12 @@ Don't forget to give the project a star! Thanks again!
 <h3>Starting the program</h3>
 <p>Once downloaded, VisionForge is wrapped in a .exe file making use very simple. Double click to launch the software and you will be taken to the initial screen shown below.</p>
 <div align="center">
-    <img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
+    <img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black">
 </div>
 <h3>Creating a new training set</h3>
 <p>The structure of the training folder is shown below. A .json contains all the bounding boxes; whereas, a sub-folder contains all the training images. Currently the software only support JPEG. Other formats will be added later. If you would prefer to download a empty file folder the first time, it can be downloaded from this link.</p>
 <div align="center">
-    <img src="src/main/resources/Load%20File.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
+    <img src="src/main/resources/Load%20File.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%; border:5px; double black;">
 </div>
 <p>Looking at the .json you will see a format that includes the LABELS. These labels represent a list of the objects that will be in your images. For example; horses, cars, people, etc. Edit this label to include all the objects your training dataset will be expected to classify. Once you load your initial JSON, this list will populate so you can classify images.</p>
 
