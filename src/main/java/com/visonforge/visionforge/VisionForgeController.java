@@ -61,7 +61,7 @@ public class VisionForgeController implements Initializable {
     //Holds ratio for image pane.
     private double imageRatioWidth;
     private double imageRatioHeight;
-    private double zoomValue = 0.25;
+    private double zoomValue = 0.05;
 
     //Object for use with drawing.
     Rectangle rectNewObject = new Rectangle();
@@ -100,7 +100,7 @@ public class VisionForgeController implements Initializable {
         alert.setTitle("VisionForge");
         alert.setGraphic(iconImage);
         alert.getDialogPane().getButtonTypes().add(ButtonType.OK);
-        alert.setContentText("Dataset development for reliable and scalable computer vision models that evolve with the problem set while maintaining quality.");
+        alert.setContentText("VisionForge is an open source program providing a means to rapidly develop and customize datasets for training computer vision programs.");
         alert.showAndWait();
 
         //Setting table values for use in the bounding box table.
@@ -161,6 +161,7 @@ public class VisionForgeController implements Initializable {
                 zoomValue = zoomSlider.getMax();
             }
             zoomSlider.setValue(zoomValue);
+
         });
 
         // Loads a new image when an index of the image table is selected.
@@ -252,6 +253,7 @@ public class VisionForgeController implements Initializable {
 
         //Opens a directory selector for user to select desired folder.
         FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(new File("training_data_folder"));
         fileChooser.setTitle("Open Training JSON");
         json_file = fileChooser.showOpenDialog(null);
         training_folder = new File(json_file.getParent() + "/images/");
