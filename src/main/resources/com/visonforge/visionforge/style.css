@@ -2,6 +2,7 @@
 .split-pane{
     -fx-background-color: #0A0E1A;
 }
+
 .button {
     -fx-background-color: #007BFF;
     -fx-text-fill:  #E0E0E0;
@@ -36,21 +37,20 @@
     -fx-background-color: #0A0E1A;
 }
 
-.slider{
-    -fx-background-color: transparent;
-}
-
-.slider .track{
-    -fx-background-color: #007BFF;
-}
-
-
 .scroll-pane {
     -fx-background-color: transparent;
 }
 
 .scroll-pane .corner{
     -fx-background-color: transparent;
+}
+
+.slider{
+    -fx-background-color: transparent;
+}
+
+.slider .track{
+    -fx-background-color: #007BFF;
 }
 
 .table-view .corner{
@@ -61,24 +61,11 @@
     -fx-background-color: transparent;
 }
 
-.scroll-bar:horizontal, .scroll-bar:vertical{
-    -fx-background-color:transparent;
-}
-
-.increment-button, .decrement-button {
-    -fx-background-color: transparent;
-    -fx-border-color: transparent;
-}
-
 .scroll-bar:horizontal .track,
 .scroll-bar:vertical .track{
     -fx-background-color: transparent;
     -fx-border-color: transparent;
     -fx-background-radius: 0em;
-}
-
-.scroll-bar:horizontal . {
-    -fx-background-color: transparent;
 }
 
 .scroll-bar:horizontal .thumb,
@@ -87,12 +74,9 @@
     -fx-background-radius: 5em;
 }
 
-.bar-chart .chart-content .chart-plot-background {
+.increment-button, .decrement-button {
     -fx-background-color: transparent;
-    -fx-text-fill:#E0E0E0;
-    -fx-font-family: Sans-Serif;
-    -fx-font-weight:  bolder;
-    -fx-font-size:20px;
+    -fx-border-color: transparent;
 }
 
 .chart-horizontal-grid-lines{
@@ -103,11 +87,6 @@
     -fx-stroke:  transparent;
 }
 
-.bar-chart .label{
-        -fx-text-fill: white;
-        -fx-font-family: Sans-Serif;
-}
-
 .table-view {
     -fx-background-color: transparent;
     -fx-border-color: white;
@@ -115,7 +94,7 @@
 
 .table-view .column-header {
     -fx-background-color: transparent;
-    -fx-border-color: white;
+    -fx-border-color: transparent;
     -fx-text-alignment: center;
 }
 .table-view .column-header-background {
@@ -134,6 +113,7 @@
 .table-view .table-cell {
     -fx-text-fill: white;
     -fx-alignment: center;
+    -fx-border-color: transparent;
 }
 
 .table-row-cell:even {
@@ -146,14 +126,26 @@
 .table-row-cell:selected {
     -fx-background-color: #A0A0A0;
 }
-.menu{
-    -fx-background-color: green;
+
+.table-{
+    -fx-border-color: transparent;
 }
 
-.menu-bar {
-    -fx-background-color: red;
+.bar-chart .chart-content .chart-plot-background {
+    -fx-background-color: transparent;
+    -fx-text-fill:#E0E0E0;
+    -fx-font-family: Sans-Serif;
+    -fx-font-weight:  bolder;
+    -fx-font-size:20px;
 }
-.menu-item {
-    -fx-text-fill: black;
+
+.bar-chart .label{
+    -fx-text-fill: white;
+    -fx-font-family: Sans-Serif;
 }
+
+.default-color0.chart-bar {
+    -fx-bar-fill: #007BFF; /* Color for the first series */
+}
+
 

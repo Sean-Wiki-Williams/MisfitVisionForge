@@ -30,7 +30,7 @@
 <br>
 <br>
 <div align="center">
-    <img src="src/main/resources/com/visonforge/visionforge/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 50%; height: 50%">
+    <img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
 </div>
 
 <h2> Built With </h2>
@@ -57,30 +57,51 @@ Don't forget to give the project a star! Thanks again!
 
 <h2 id="how_to"> How To Use </h2>
 <h3>Install</h3>
-<p>VisionForge is based on the Java Interperative Language. To use the software users must have the most current version of Java installed. Download version X.X or later for use.</p>
+<p>VisionForge is based on the Java Interperative Language. To use the software users must have the most current version of <a href="https://www.oracle.com/java/technologies/downloads/">Java SDK</a>.</p>
 
 <h3>Starting the program</h3>
 <p>Once downloaded, VisionForge is wrapped in a .exe file making use very simple. Double click to launch the software and you will be taken to the initial screen shown below.</p>
-
+<div align="center">
+    <img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
+</div>
 <h3>Creating a new training set</h3>
-The structure of the training folder is shown below. A .json contains all the bounding boxes; whereas, a sub-folder contains all the training images. Currently the software only support JPEG. Other formats will be added later. If you would prefer to download a empty file folder the first time, it can be downloaded from this link.
+<p>The structure of the training folder is shown below. A .json contains all the bounding boxes; whereas, a sub-folder contains all the training images. Currently the software only support JPEG. Other formats will be added later. If you would prefer to download a empty file folder the first time, it can be downloaded from this link.</p>
+<div align="center">
+    <img src="src/main/resources/Load%20File.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
+</div>
+<p>Looking at the .json you will see a format that includes the LABELS. These labels represent a list of the objects that will be in your images. For example; horses, cars, people, etc. Edit this label to include all the objects your training dataset will be expected to classify. Once you load your initial JSON, this list will populate so you can classify images.</p>
 
-Looking at the .json you will see a format that includes the LABELS. These labels represent a list of the objects that will be in your images. For example; horses, cars, people, etc. Edit this label to include all the objects your training dataset will be expected to classify. Once you load your initial JSON, this list will populate so you can classify images.
+```
+{"LABELS":["Horse"],
+"FEATURES":
+    [{"TYPE_ID":1,
+    "IMAGE_ID":"DSC_0245.JPG",
+    "BBOX":[2024,2375,3024,3367]},
+    
+    {"TYPE_ID":1,
+    "IMAGE_ID":"DSC_0245.JPG",
+    "BBOX":[3704,2079,4664,3304]}
+    ]}
+```
 
-With the training folder created, you can now go back to the VisionForge software and click the Load button. Navigate to your JSON and select it. From there your training dataset will load.
+<p>ith the training folder created, you can now go back to the VisionForge software and click the Load button. Navigate to your JSON and select it. From there your training dataset will load.</p>
 
 <h3>Labeling Data</h3>
 VisionForge uses BoundingBoxes to label image. Start by selecting your image in the image box. This will open your image on the right side.
 Resize the image as required.
+
 Find the object you would like to classify and click in the upper left side dragging the bounding box to the lower right.
-Select the object classification from the dropdown.
-Click save
+<div align="center">
+    <img src="src/main/resources/selectingobject.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%">
+</div>
+
+<p>Select the object classification from the dropdown (Figure 2, Number 6).
+Click save (Figure 2, Number 5)
 Each time save is clicked the dataset JSON is updated.
 
 <h3>Deleting Classification</h3>
-If a object is not correctly marked, a user can select it from the list on the left then click the delete button.
+If an object is not correctly marked, a user can select it from the list on the left then click the delete button. (Figure 2, Number 2)
 
 Updating Classification
-If an object is incorrectly classified, the user can select it ffrom teh list on the left
-Change the object classification in the drop down.
-Click the update button.
+If an object is incorrectly classified, the user can select it from teh list on the left (Figure 2, Number 6) then change the object classification in the drop-down (Figure 2, Number 4).
+Finally, click the update button. (Figure 2, Number 5)
