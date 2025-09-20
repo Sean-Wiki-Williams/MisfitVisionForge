@@ -1,7 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
 <div align="center">
-    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" width="30%" height="30%">
+    <img src="src/main/resources/com/visonforge/visionforge/icon_transparent.png" alt="Logo" width="50%" height="50%">
     <p align="center">
       An open source project designed to make it faster and easier to generate training datasets for computer vision algorithms.
       <br />
@@ -25,24 +25,22 @@
 
 <h2 id="about-the-project">About the Project</h2>
 
-<p><u>Problem Statement</u>: Computer vision algorithms for object detection are powerful tools that enhance sensor capability allowing the sensor to detect object within an image as shown in Figure 1. To accomplish this, these algorithms must be trained using large datasets of pre-classified images like the one in Figure 2. Although there are many pre-classified datasets available (COCO, CIFAR, etc.) there are few open source tools available to generate new datasets.</p>
-<p><u>Project's Objective</u>: Create an open source tool for users to rapidly generate training datasets for computer vision algorithms using bounding boxes.</p>
+<p><u>Problem Statement</u>: Computer vision algorithms for object detection are powerful tools that enhance sensor capability allowing the sensor to detect object within an image as shown in Figure 1. To accomplish this, these algorithms must be trained using large datasets of pre-classified images. Developing these training sets is a time intensive process and there are few open source tools available.</p>
+<p><u>Project's Objective</u>: Create an open source tool allowing users to rapidly generate training datasets for computer vision algorithms using bounding boxes and object detection.</p>
 <br>
-<br>
-<h2> Built With </h2>
 <div style="display: block">
     <img src="src/main/resources/com/visonforge/visionforge/java.png" alt="Java" style="display: block; margin: auto; width: 25%; height: 25%">
 </div>
 <br>
+<h2 id="end_result">End Result</h2>
+<p><u>Product:</u> The end product VisionForge provides is a dataset of images classified as shown below. Although this image only shows horses, the software supports multi-class datasets as well. Once complete, these datasets can be used to train a customized object detection sensor using computer vision.</p>
 <br>
 <div align="center">
-    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" border=1 style="display: block; margin: auto; width: 75%; height: 75%; border: 30px solid #000000">
+    <img src="src/main/resources/SampleImage.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
 </div>
 
-
-
-<h2 id="download">Download Most Recent Version</h2>
-
+<h2 id="download">Download</h2>
+<p> VisionForge provides the user a means to rapidly develop custom computer vision datasets using bounding boxes as shown below. To download a copy of the most current VisionForge click.</p>
 <div align="center">
     <kbd><img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:13px solid white;"></kbd>
 </div>
@@ -69,12 +67,12 @@ Don't forget to give the project a star! Thanks again!
 <h3>Starting the program</h3>
 <p>Once downloaded, VisionForge is wrapped in a .exe file making use very simple. Double click to launch the software and you will be taken to the initial screen shown below.</p>
 <div align="center">
-    <kbd><img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:5px; double black"></kbd>
+    <kbd><img src="src/main/resources/Buttons.png" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%"></kbd>
 </div>
 <h3>Creating a new training set</h3>
 <p>The structure of the training folder is shown below. A .json contains all the bounding boxes; whereas, a sub-folder contains all the training images. Currently the software only support JPEG. Other formats will be added later. If you would prefer to download a empty file folder the first time, it can be downloaded from this link.</p>
 <div align="center">
-    <img src="src/main/resources/Load%20File.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%; border:5px; double black;">
+    <img src="src/main/resources/Load%20File.jpg" alt="Figure 1" style="display: block; margin: auto; width: 75%; height: 75%">
 </div>
 <p>Looking at the .json you will see a format that includes the LABELS. These labels represent a list of the objects that will be in your images. For example; horses, cars, people, etc. Edit this label to include all the objects your training dataset will be expected to classify. Once you load your initial JSON, this list will populate so you can classify images.</p>
 
