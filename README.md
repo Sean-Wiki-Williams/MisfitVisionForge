@@ -40,12 +40,10 @@
 </div>
 
 <h2 id="download">Download</h2>
-<p> VisionForge provides the user a means to rapidly develop custom computer vision datasets using bounding boxes as shown below. To download a copy of the most current VisionForge click.</p>
+<p> VisionForge provides the user a means to rapidly develop custom computer vision datasets using bounding boxes as shown below. To download a copy of the most current VisionForge click <a href="https://github.com/SWilliams17655/VisionForge/blob/main/VisionForge.exe"> Here </a>.</p>
 <div align="center">
     <kbd><img src="src/main/resources/Full View.jpg" alt="Figure 1" style="display: block; margin: auto; width: 100%; height: 100%; border:13px solid white;"></kbd>
 </div>
-
-Coming Soon
 
 <h2 id="contribute"> To Contribute </h2>
 
