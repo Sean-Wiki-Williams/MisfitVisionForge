@@ -253,7 +253,6 @@ public class VisionForgeController implements Initializable {
 
         //Opens a directory selector for user to select desired folder.
         FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("training_data_folder"));
         fileChooser.setTitle("Open Training JSON");
         json_file = fileChooser.showOpenDialog(null);
         training_folder = new File(json_file.getParent() + "/images/");
