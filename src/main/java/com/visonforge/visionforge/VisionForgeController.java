@@ -15,6 +15,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
@@ -38,6 +39,7 @@ public class VisionForgeController implements Initializable {
     @FXML private ImageView trainingImage;
     @FXML private ImageView iconImage = new  ImageView();
     @FXML private StackPane drawingSurface;
+    @FXML private SplitPane mainPane;
     @FXML private TableView<BBox> bboxTable;
     @FXML private TableView<File> imageTable;
     @FXML private Slider zoomSlider;
@@ -149,10 +151,10 @@ public class VisionForgeController implements Initializable {
 
         trainingImage.setOnScroll(event -> {
             if(event.getDeltaY() > 0){
-                zoomValue += zoomSlider.getBlockIncrement();
+                zoomValue += zoomSlider.getBlockIncrement()*2;
             }
             else{
-                zoomValue -= zoomSlider.getBlockIncrement();
+                zoomValue -= zoomSlider.getBlockIncrement()*2;
             }
             if(zoomValue < zoomSlider.getMin()){
                 zoomValue = zoomSlider.getMin();
@@ -208,6 +210,23 @@ public class VisionForgeController implements Initializable {
             loadImage();
             updateGraph();
             exportJSON();
+        });
+
+        mainPane.setOnKeyPressed(event -> {
+            if (event.getCode() == KeyCode.S) {
+                addBBox();
+                loadImage();
+                updateGraph();
+                exportJSON();
+            }
+            if (event.getCode() == KeyCode.D) {
+                BBox selectedBBox = (BBox) bboxTable.getSelectionModel().getSelectedItem();
+                if (selectedBBox == null)
+                    return;
+                bboxList.remove(selectedBBox);
+                loadImage();
+                updateGraph();
+            }
         });
 
         // Loads a new image when an index of the image table is selected.
